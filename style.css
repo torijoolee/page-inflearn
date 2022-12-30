@@ -1,0 +1,39 @@
+a {
+  text-decoration: none;
+}
+/* #skip {
+  position: relative;
+} */
+#skip a {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #333;
+  line-height: 30px;
+  width: 140px;
+  text-align: center;
+}
+#skip a:active,
+#skip a:focus {
+  top: 0;
+}
+/* header */
+.header {
+  text-align: center;
+}
+.header .header__menus {
+  text-align: right;
+}
+.header__menu {
+  color: #333;
+  padding: 10px;
+  display: inline-block;
+}
+.header__menu:hover {
+  color: red;
+}
+.headder__title h1 {
+  text-transform: uppercase;
+}
