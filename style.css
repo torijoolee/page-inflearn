@@ -1,3 +1,12 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  width: 1000px;
+  margin: auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -36,4 +45,52 @@ a {
 }
 .headder__title h1 {
   text-transform: uppercase;
+}
+/* 하단 전체메뉴 */
+.container {
+  overflow: hidden;
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+.container > h2 {
+  overflow: hidden;
+  position: absolute;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  text-indent: -9999;
+}
+
+ul,
+dl,
+li,
+ol,
+menu {
+  list-style: none;
+}
+nav {
+  float: left;
+  width: 40%;
+}
+nav:last-child {
+  width: 20%;
+}
+nav h3 {
+  margin-bottom: 0.5rem;
+}
+nav ul {
+  overflow: hidden;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  width: 50%;
+}
+.last ul li {
+  width: 100%;
+}
+nav ul li a:hover {
+  text-decoration: underline;
 }
